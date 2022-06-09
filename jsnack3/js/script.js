@@ -3,7 +3,7 @@
 
 // Il software chiede per 10 volte all’utente di inserire un numero
 let sumNumbers = 0;
-for( i = 0; i < 10; i++) {
+for(i = 0; i < 10; i++) {
     const number = parseInt( prompt('Inserisci un numero') ); 
     
     sumNumbers += number;
