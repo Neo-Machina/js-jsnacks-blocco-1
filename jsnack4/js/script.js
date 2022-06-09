@@ -6,7 +6,7 @@
 const array = [];
 
 // Chiedo per 6 volte all’utente di inserire un numero
-for( i = 0; i < 6; i++) {
+for(i = 0; i < 6; i++) {
     const number = parseInt( prompt ('Inserisci un numero') );
 
     // se è dispari lo inserisco nell’array
