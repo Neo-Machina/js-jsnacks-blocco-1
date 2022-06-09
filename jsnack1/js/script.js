@@ -3,8 +3,10 @@
 // Partendo da un array di numeri, stampiamo nell’id rosso i numeri dispari e
 // in verde i numeri pari.
 
+// Array di numeri
 const numbers = [1, 2, 3, 4, 5 ,6]
 
+// 
 for (let i = 0; i < numbers.length; i ++) {
     const thisNumber = numbers[i];
     

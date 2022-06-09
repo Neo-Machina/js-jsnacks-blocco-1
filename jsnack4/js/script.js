@@ -10,7 +10,7 @@ for( i = 0; i < 6; i++) {
     const number = parseInt( prompt ('Inserisci un numero') );
 
     // se è dispari lo inserisco nell’array
-    if(number % 2 !== 0) {
+    if(number % 2 !== 0 && number) {
         array.push(number);
     }
 }
